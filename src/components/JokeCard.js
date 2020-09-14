@@ -2,18 +2,35 @@ import React from "react";
 import JokeText from './JokeText';
 import JokeButton from './JokeButton';
 
-// async function getJoke() {
-//   const response = await fetch("https://api.chucknorris.io/jokes/random");
-//   const joke = await response.json();
-//   return joke.value;
-// }
-
 class JokeCard extends React.Component {
+
+  constructor() {
+    super();
+    this.state = {joke: ''};
+  };
+
+  componentDidMount() {
+    this.getChuckNorrisJoke();
+  }
+
+  getChuckNorrisJoke = () => {
+    fetch("https://api.chucknorris.io/jokes/random")
+    .then((response) => response.json())
+    .then((joke) => {
+      const jokeValue = joke.value
+      this.setState({ joke: jokeValue })
+    });
+  }
+
+   getNewJoke = (event) => {
+    this.getChuckNorrisJoke();
+   }
+
   render() {
     return (
     <div>
-        <JokeText joke='This is some test text'/>
-        <JokeButton/>
+        <JokeText joke={this.state.joke}/>
+        <JokeButton getNewJoke={this.getNewJoke}/>
     </div>
     )
   }

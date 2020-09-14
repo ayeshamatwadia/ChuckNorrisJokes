@@ -1,8 +1,8 @@
 import React from 'react';
 
-const JokeButton = () => {
+const JokeButton = (props) => {
     return (
-        <input type='button' value="button" onClick={alert('Hey this works!!!')} />
+        <input type='button' value="button" onClick={props.getNewJoke} />
     )
 }
 
