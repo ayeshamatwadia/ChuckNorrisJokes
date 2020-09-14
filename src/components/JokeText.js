@@ -1,8 +1,11 @@
 import React from 'react';
+import './JokeText.css';
 
 const JokeText = (props) => {
     return (
-        <p>{props.joke}</p>
+        <div className="textContainer">
+            <p className="chuckJokeText">{props.joke}</p>
+        </div>
     )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react';
+import './JokeButton.css';
 
 const JokeButton = (props) => {
     return (
-        <input type='button' value="button" onClick={props.getNewJoke} />
+        <div className="container">
+            <input className="chuckButton" type='button' value="button" onClick={props.getNewJoke} />
+        </div>
+        
     )
 }
 
