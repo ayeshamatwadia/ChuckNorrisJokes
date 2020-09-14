@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ChuckNorrisJokes/static/css/main.5afeb3f5.chunk.css",
+    "main.js": "/ChuckNorrisJokes/static/js/main.cac90232.chunk.js",
+    "main.js.map": "/ChuckNorrisJokes/static/js/main.cac90232.chunk.js.map",
+    "runtime-main.js": "/ChuckNorrisJokes/static/js/runtime-main.f37253cb.js",
+    "runtime-main.js.map": "/ChuckNorrisJokes/static/js/runtime-main.f37253cb.js.map",
+    "static/js/2.94661a9b.chunk.js": "/ChuckNorrisJokes/static/js/2.94661a9b.chunk.js",
+    "static/js/2.94661a9b.chunk.js.map": "/ChuckNorrisJokes/static/js/2.94661a9b.chunk.js.map",
+    "index.html": "/ChuckNorrisJokes/index.html",
+    "precache-manifest.a4aafe99569536c924bad31206c3e684.js": "/ChuckNorrisJokes/precache-manifest.a4aafe99569536c924bad31206c3e684.js",
+    "service-worker.js": "/ChuckNorrisJokes/service-worker.js",
+    "static/css/main.5afeb3f5.chunk.css.map": "/ChuckNorrisJokes/static/css/main.5afeb3f5.chunk.css.map",
+    "static/js/2.94661a9b.chunk.js.LICENSE.txt": "/ChuckNorrisJokes/static/js/2.94661a9b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ChuckNorrisJokes/static/media/chuck_norris_image.d08beac4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f37253cb.js",
+    "static/js/2.94661a9b.chunk.js",
+    "static/css/main.5afeb3f5.chunk.css",
+    "static/js/main.cac90232.chunk.js"
+  ]
+}
