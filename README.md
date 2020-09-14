@@ -1,3 +1,6 @@
+## Access the github pages site of this code here
+https://ayeshamatwadia.github.io/ChuckNorrisJokes/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
